@@ -1,7 +1,7 @@
 export default function HomePage() {
     return (
         <>
-            <h1>Lista dei Film</h1>
+            <h1 className="pt-5 ">Tutti i film, solo qui.</h1>
         </>
     )
 }

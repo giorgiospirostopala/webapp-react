@@ -6,9 +6,10 @@ export default function Header() {
             <nav className="navbar navbar-expand navbar-light bg-light">
                 <div className="nav navbar-nav">
                     <NavLink className="nav-item nav-link" to="/">
-                        Home
+                        {/* <strong>Home</strong> */}
+                        <i className="bi bi-house-fill p-3"></i>
                     </NavLink>
-                    <NavLink className="nav-item nav-link" to="/books/:id">
+                    <NavLink className="nav-item nav-link glow" to="/books/:id">
                         Ultima uscita 💥
                     </NavLink>
                 </div>
