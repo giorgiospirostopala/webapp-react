@@ -9,9 +9,6 @@ export default function Header() {
                         {/* <strong>Home</strong> */}
                         <i className="bi bi-house-fill p-3"></i>
                     </NavLink>
-                    <NavLink className="nav-item nav-link glow" to="/books/:id">
-                        Ultima uscita 💥
-                    </NavLink>
                 </div>
             </nav>
         </header>

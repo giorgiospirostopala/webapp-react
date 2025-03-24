@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route Component={DefaultLayout}>
             <Route path="/" Component={HomePage} />
-            <Route path="/books/:id" Component={FilmPage} />
+            <Route path="/films/:id" Component={FilmPage} />
           </Route>
         </Routes>
       </BrowserRouter>
